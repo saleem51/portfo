@@ -1,0 +1,121 @@
+@media screen and (max-width: 576px) {
+  .list-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #FFF;
+}
+
+li > a {
+  font-size: 9px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.list-item {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+div {
+  border: 1px solid #FFF;
+  height: 400px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+#head {
+  background-image: url("/media/pc_bureau.jpg");
+}
+
+.metier {
+  font-size: 30px;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 2%;
+}
+
+.first-type {
+  margin-right: .5%;
+}
+
+.first-list-item, .list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first-list-item {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nomprenom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.link-first {
+  font-size: 7px;
+}
+
+.foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 10px;
+}
+
+.texte1, .texte2 {
+  border: none;
+}
+
+.nomprenom {
+  border-top: none;
+}
+/*# sourceMappingURL=style.css.map */

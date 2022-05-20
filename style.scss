@@ -1,0 +1,95 @@
+@media screen and (max-width: 576px) {
+    .list-item{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+html, body{
+    margin: 0;
+    padding : 0;
+    
+}
+
+body{
+    background-color: #000;
+    color: #FFF;
+}
+
+li > a {
+    font-size: 9px;
+    color: #FFF;
+    text-decoration: none;
+    
+}
+
+.list-item{
+    justify-content: flex-end;
+}
+
+div {
+    border: 1px solid #FFF;
+    height: 400px;
+}
+h1{
+    font-size: 25px;
+}
+#head{
+background-image: url('/media/pc_bureau.jpg');
+}
+
+.metier{
+    font-size: 30px;
+}
+
+
+
+li{
+    list-style-type: none;
+    margin-right: 2%;
+}
+
+.first-type{
+    margin-right: .5%;
+}
+
+.first-list-item, .list-item{
+    display: flex;
+}
+
+.first-list-item{
+    justify-content: flex-end;
+}
+
+
+.nomprenom{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.center-title{
+    display: flex;
+    justify-content: center;
+}
+
+.link-first{
+    font-size: 7px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+}
+
+.texte1, .texte2{
+    border: none;
+}
+
+.nomprenom{
+    border-top: none;
+}
